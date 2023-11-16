@@ -13,7 +13,7 @@ struct IOSMOD2MVVMPokedexApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView() // Inicia o app.
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
